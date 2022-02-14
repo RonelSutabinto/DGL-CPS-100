@@ -270,6 +270,10 @@ public class MainActivity extends Activity {
         }
     }
  
+
+
+
+
     /*
      * This will send data to be printed by the bluetooth printer
      */
