@@ -26,9 +26,6 @@ import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.Color;
-import android.graphics.Bitmap.CompressFormat;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
@@ -388,6 +385,7 @@ public class MainActivity extends Activity {
                     R = Color.red(pixel);
                     G = Color.green(pixel);
                     B = Color.blue(pixel);
+                   
                     // take conversion up to one single value by calculating
                     // pixel intensity.
                     R = G = B = (int) (0.299 * R + 0.587 * G + 0.114 * B);
@@ -409,7 +407,7 @@ public class MainActivity extends Activity {
         }
     }
     
-    //Part 2
+    //Part 2 hexa convertion
     //================================
     //================================
     
